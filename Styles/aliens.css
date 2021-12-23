@@ -82,7 +82,7 @@ main {
 }
 footer{
     text-align: center;
-    background: url(imagens/rodape.jpeg);
+    background: url(../Imagens/rodape.jpeg);
 }
 #logo_rodape{
     width: 290px;

@@ -83,7 +83,7 @@ td, th{
 }
 footer{
     text-align: center;
-    background: url(imagens/rodape.jpeg);
+    background: url(../Imagens/rodape.jpeg);
 }
 #logo_rodape{
     width: 290px;
@@ -109,8 +109,17 @@ footer{
     background: rgb(31, 218, 171);
 }
 .conteudo-principal{
+    padding: 3em;
     width: 940px;
     margin: 0 auto;
+    box-sizing: border-box;
+    border: none;
+    background: rgb(231, 233, 231);
+    border-radius: 10px;
+}
+.conteudo-principal:hover{
+    border: 2.3px solid  rgb(175, 0, 58);
+    font-size: 25px;
 }
 .principal p{
     margin: 0 0 1em;
@@ -127,8 +136,17 @@ footer{
     margin: 20px;
 }
 .conteudo-plataformas{
-    width: 640px;
+    width: 840px;
     margin: 0 auto;
+    box-sizing: border-box;
+    border: none;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 4em;
+}
+.conteudo-plataformas:hover{
+    border: 2px solid  rgb(31, 218, 171);
+    font-size: 25px;
 }
 .plataformas{
     padding: 3em 0;
@@ -141,10 +159,11 @@ footer{
     vertical-align: top;
 }
 .img_plataformas{
-    width: 60%;
+    width: 50%;
     opacity: 1;
     transition: 700ms;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    padding: 0.5em;
 }
 .img_plataformas:hover{
     opacity: 0.3;

@@ -31,11 +31,15 @@ nav a:hover{
     text-decoration: underline;
 }
 body{
-    background: rgb(0, 0, 0);
+    background: black;
 }
 main{
     width: 940px;
     margin: 0 auto;
+}
+.formulario{
+    border: none;
+    padding: 4em;
 }
 form{
     margin: 40px 0;
@@ -53,6 +57,7 @@ form label, form legend{
     padding: 10px 25px;
     width: 50%;
     background:  rgb(214, 214, 214);
+    border-radius: 9px;
 }
 .checkbox{
     margin: 20px 0;
@@ -86,8 +91,9 @@ td, th{
     padding: 8px 15px;
 }
 footer{
+    widht: 100%;
     text-align: center;
-    background: url(imagens/rodape.jpeg);
+    background: url(../Imagens/rodape.jpeg);
 }
 #logo_rodape{
     width: 290px;
