@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato - No Man's Sky</title>
+        <link rel= "stylesheet" href="../Styles/reset.css">
+        <link rel="stylesheet" href="../Styles/contato.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img id="logo" src="../Imagens/logo1.png" alt="Logo do site No Man's Sky"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aliens.html">Alienígenas</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>../I
+            <form>
+                <label for="nome">Nome completo</label>
+                <input type="text" id=nome class="input-padrão" required
+                placeholder="Seu nome ou como se identifica">
+
+                <label for="email">Espécie</label>
+                <input type="text" id="especie" class="input-padrão" required 
+                placeholder="Gek/Korvax/Vykeen">
+
+                <label for="telefone">Planeta de Origem</label>
+                <input type="text" id="planeta" class="input-padrão" required
+                placeholder="Um dos bilhões de planetas">
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrão" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefere ser contatactado?</legend>
+                    <label for="radio-email"><input type="radio" value="email" 
+                        name="contato" id="radio-email">Mensagem</label>
+                    
+                    <label for="radio-telefone"><input type="radio" value="telefone" 
+                        name="contato" id="radio-telefone">Telepatia</label>
+                    
+                    <label for="radio-whatsapp"> <input type="radio" value="Whatsapp" 
+                        name="contato" id="radio-whatsapp" checked>Estação Espacial</label>
+                </fieldset>
+
+                <fieldset>
+                <legend>Qual horário prefere ser contactado?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+                </fieldset>
+
+                <label class="checkbox"> <input type="checkbox" checked> Gostaria de receber nossas novidades por mensagem?</label>
+
+                <input type="submit" value="Enviar Formulário" class="enviar">
+                
+            </form>
+
+        </main>
+
+        <footer>
+            <img id="logo_rodape" src="../Imagens/rd_logo.png" alt="Logo do site No Man's Sky">
+            <p class="copyright">&copy; Copyright No Man's Sky - Leticia Costa Leite 2021</p>
+        </footer>
+    </body>
+</html>

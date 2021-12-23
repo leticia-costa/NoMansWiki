@@ -2,6 +2,9 @@ header{
     background: rgb(175, 0, 58);
     padding: 20px 0;;
 }
+body{
+    background: rgb(0, 0, 0); 
+}
 .caixa{
     width: 940px;
     position: relative;
@@ -36,7 +39,8 @@ main {
 .desc_aliens li{
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 29%;
+    height: 34vw;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
