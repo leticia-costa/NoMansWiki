@@ -1,0 +1,103 @@
+header{
+    background: rgb(175, 0, 58);
+    padding: 20px 0;;
+}
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+#logo{
+    width: 220px;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    COLOR: rgb(183, 255, 237);
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(255, 137, 210);
+    text-decoration: underline;
+}
+main {
+    background: rgb(4, 153, 116);
+}
+.desc_aliens li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid  rgb(175, 0, 58);
+    border-radius: 10px;
+    background: rgb(183, 255, 237);
+}
+.desc_aliens li:hover{
+    border-color: rgb(255, 137, 210);
+}
+.desc_aliens li:hover h2{
+    font-size: 34px;
+}
+.desc_aliens li:active{
+    border-color: rgb(255, 0, 157);
+}
+.desc_aliens{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px;
+}
+.aliens{
+    width: 220px;
+    height: 260px;
+}
+.desc_aliens h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.desc{
+    font-size: 18px;
+}
+.preço{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+footer{
+    text-align: center;
+    background: url(imagens/rodape.jpeg);
+}
+#logo_rodape{
+    width: 290px;
+    padding: 40px;
+} 
+.copyright{
+    color: rgb(183, 255, 237);
+    font-size: 13px;
+    
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 480px) {
+    body{
+        display: inline-block;
+    }
+    .caixa, .desc_aliens, .conteudo-plataformas, .mapa-conteudo, .video {
+        width: auto;
+    }
+    .desc_aliens{
+        width: 100%;
+    }
+}
